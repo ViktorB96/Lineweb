@@ -1,0 +1,184 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	margin: 0;
+	padding: 0;
+	background: #CCCCCC;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-weight: 400;
+	margin: .5em 0 .3em;
+}
+h1 { font-size: 38px;}
+h2 { font-size: 32px;}
+h3 { font-size: 28px;}
+h4 { font-size: 24px;}
+h5 { font-size: 20px;}
+h6 { font-size: 18px;}
+
+img {
+	vertical-align: bottom;
+}
+
+a:link, 
+a:visited {
+	color: #C51417;
+	text-decoration: none;
+}
+a:hover {
+	color: #4F0103;
+	text-decoration: underline;
+}
+a:active {
+	color: #666666;
+}
+
+
+#wrapper {
+	width: 950px;
+	padding: 15px;
+	margin: 10px auto;
+	background: #FFFFFF;
+	box-shadow: 0 2px 4px #555555;
+	border-radius: 4px;
+}
+#header {
+	background: #C51417;
+	overflow: hidden;
+	padding: 7px;
+	color: #FFFFFF;
+	margin: 0 0 15px;
+}
+.logo {
+	float: left;
+}
+.slogan {
+	float: right;
+	font-size: 22px;
+	font-style: italic;
+}
+.slogan > p {
+	margin: 0;
+}
+#nav {
+	height: 40px;
+	background: #333333;
+}
+#nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+#nav ul li {
+	float: left;
+	position: relative;
+}
+#nav ul li a {
+	display: block;
+	padding: 10px;
+	height: 20px;
+}
+
+#nav ul li ul {
+	background: #777777;
+	position: absolute;
+	top: 40px;
+	left: 0;
+	width: 140px;
+	display: none;/*u startu*/
+}
+#nav ul li:hover > ul {
+	display: block;
+}
+#nav ul li ul li {
+	float: none;
+}
+
+
+
+
+#nav ul li a:link,
+#nav ul li a:visited {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+#nav ul li a:hover {
+	background: #C51417;
+}
+#nav ul li a:active {
+	background: #777777;
+}
+
+
+
+
+#main {
+	float: left;
+	width: 660px;
+	margin: 0 0 15px;
+}
+#sidebar {
+	position: relative;
+	float: right;
+	width: 280px;
+	margin: 0 0 15px;
+}
+#sidebar .block {
+	margin: 0 0 20px;
+}
+#sidebar .block h2 {
+	background: #AAAAAA;
+	color: #FFFFFF;
+	padding: 4px;
+}
+
+
+#footer {
+	clear: both;
+	background: #333333;
+	text-align: center;
+	color: #CCCCCC;
+	font-size: 12px;
+	padding: 10px;
+}
+#footer p {
+	margin: 0;
+}
+
+.vest{
+	background-color: #f3f3f3;
+	border: 1px solid black;
+	padding:5px;
+	margin-bottom: 5px;
+	vertical-align: top;
+}
+.galerija{
+	height: 200px;
+	border: 1px solid black;
+	margin: 5px;
+	padding: 2px;
+	display: inline-block;
+}
+.slika{
+	height: 150px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

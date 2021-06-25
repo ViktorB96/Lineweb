@@ -1,0 +1,4 @@
+14.02.2020 19:39:29 - Obrisan proizvod id=5 od strane Бошко Богојевић
+14.02.2020 19:38:22 - Obrisan proizvod id=7 od strane Бошко Богојевић
+07.02.2020 19:41:15 - Uspešno dodat proizvod 'Još noviji mobilni' od strane Pera Perić
+07.02.2020 19:38:51 - Uspešno dodat proizvod 'Mobilni telefon NOKIA' od strane Бошко Богојевић
